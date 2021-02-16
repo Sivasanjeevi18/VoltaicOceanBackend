@@ -1,0 +1,26 @@
+{
+  "name": "voltaicoceanbackend",
+  "version": "1.0.0",
+  "description": "A solution to rapid energy flow between electric cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sivasanjeevi18/VoltaicOceanBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sivasanjeevi18/VoltaicOceanBackend/issues"
+  },
+  "homepage": "https://github.com/Sivasanjeevi18/VoltaicOceanBackend#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.16"
+  }
+}
