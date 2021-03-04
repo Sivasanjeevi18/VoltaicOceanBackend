@@ -16,6 +16,7 @@ const app = express();
 
 //Routes
 const peakloadmanagement = require('./routes/peakloadmanagement')
+const electricvehiclesupplyequipment = require('./routes/electricvehiclesupplyequipment')
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -39,6 +40,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //App Starts
 app.use('/peakloadmanagement', peakloadmanagement)
+app.use('/electricvehiclesupplyequipment', electricvehiclesupplyequipment)
 if (production) {
     var distDir = __dirname + "/dist/";
     app.use('/', express.static(distDir));
