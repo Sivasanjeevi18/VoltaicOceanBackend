@@ -1,6 +1,6 @@
 config = {
     database: {
-        url: 'mongodb+srv://sivasanjeevi:siva@voltaicocean.tggtx.mongodb.net/development?retryWrites=true&w=majority'
+        url: '<MONGO_CONNECTION_STRING>'
     },
     application: {
         env: 'development'
